@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+from keep_alive import keep_alive
+keep_alive()
 
 # Define the intents to specify what events the bot will receive
 intents = discord.Intents.default()
